@@ -5,7 +5,6 @@ import logging
 import async_timeout
 
 from homeassistant.const import (
-    SensorDeviceClass,
     UnitOfEnergy,
     UnitOfPower,
     CONF_DEVICE_CLASS,
