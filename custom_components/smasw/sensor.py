@@ -5,18 +5,18 @@ import logging
 import async_timeout
 
 from homeassistant.const import (
-    UnitOfEnergy,
-    UnitOfPower,
     CONF_DEVICE_CLASS,
     CONF_FRIENDLY_NAME,
     CONF_UNIT_OF_MEASUREMENT,
+    UnitOfEnergy,
+    UnitOfPower
 )
 
 from homeassistant.components.sensor import (
     SensorEntity,
     SensorStateClass,
     SensorDeviceClass,
-    ATTR_STATE_CLASS,
+    ATTR_STATE_CLASS
 )
 
 from homeassistant.core import HomeAssistant
