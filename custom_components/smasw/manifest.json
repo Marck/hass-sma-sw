@@ -3,7 +3,7 @@
   "name": "SunnyBoy Inverter Speedwire",
   "config_flow": true,
   "documentation": "https://github.com/Marck/hass-sma-sw",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "requirements": [
     "sma-query-sw"
   ],
